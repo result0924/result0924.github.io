@@ -1,2 +1,3 @@
 # result0924.github.io
-justin's blog
+### Blog Refer
+- [jekyll doc](https://jekyllrb.com/docs/)
