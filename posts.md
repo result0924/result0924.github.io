@@ -1,5 +1,5 @@
 ---
-title: Post Archive
+title: 雜記閒談
 layout: posts
 permalink: /posts/
 show_excerpts: true

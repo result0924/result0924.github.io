@@ -16,12 +16,12 @@
 theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
-locale: en-US
+locale: zh-TW
 title: "jlai's blog"
 description: "justin's 雜記"
 baseurl: "/" # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: "/images/so-simple-site-logo.png" # path of site logo, e.g. "/assets/images/logo.png"
+logo: "/images/justin_256.png" # path of site logo, e.g. "/assets/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
@@ -78,26 +78,12 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-# Collections
-collections:
-  recipes:
-    output: true
-    permalink: /:collection/:path/
-
 # Front Matter Defaults
 defaults:
   # Post defaults
   - scope:
       path: "_posts"
       type: posts
-    values:
-      layout: post
-      comments: true
-      share: true
-  # Recipe defaults
-  - scope:
-      path: "_recipes"
-      type: recipes
     values:
       layout: post
       comments: true
