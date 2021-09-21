@@ -1,10 +1,10 @@
 # Site navigation links
 
-- title: Posts
+- title: 雜記閒談
   url: /posts/
-- title: Categories
+- title: 分門別類
   url: /categories/
-- title: Tags
+- title: 貼上標籤
   url: /tags/
-- title: Search
+- title: 尋找文章
   url: /search/
