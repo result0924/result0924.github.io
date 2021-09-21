@@ -1,0 +1,11 @@
+# Sample Authors
+# Remove file or replace with your own
+
+Justin Lai:
+  name: Justin Lai
+  picture: /assets/images/justin_256.jpg
+  twitter: "@result0924"
+  links:
+    - title: Twitter
+      url: https://twitter.com/result0924
+      icon: fab fa-twitter-square
