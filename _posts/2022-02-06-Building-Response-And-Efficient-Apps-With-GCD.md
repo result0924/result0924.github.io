@@ -1,5 +1,5 @@
 ---
-title: "Unknow enum case"
+title: "Building Responsive and Efficient Apps with GCD"
 categories:
   - iOS
 tags:
