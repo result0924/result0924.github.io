@@ -5,6 +5,7 @@ categories:
 tags:
   - NSOperation
   - WWDC
+last_modified_at: 2022-02-14T12:07:00
 ---
 
 ### NSOperations
@@ -89,6 +90,17 @@ tags:
   - Describe complex behaviors (操作讓你可以描述複雜的行為、比如互斥性或整合)
   - Enables powerful patterns
 
+### 2022-02-14 Note
+  - State
+    - ready → executing → finished
+    - 如果是取消狀態read/finished為true，executing為false
+
+  -  Since so much of the benefit of NSOperation is derived from NSOperationQueue, it’s almost always preferable to add an operation to a queue rather than invoke start directly.
+  
+  - 一般來說，除非是像前面說的，你希望這些工作在排程中就可以取消，或是要特別指定 operation 之間的相依關係，不然，要在背景執行某個 block 或是 invocation，其實使用 GCD API 會更容易。
+
 ### Refer
 - [WWDC15 Advanced NSOperations](https://developer.apple.com/videos/play/wwdc2015/226/)
 - [Sample Code](https://github.com/miscampbell/Advanced-NSOperations)
+- [NSHipster](https://nshipster.com/nsoperation/)
+- [KKBox](https://zonble.gitbooks.io/kkbox-ios-dev/content/threading/nsoperation_and_nsoperationqueue.html)
