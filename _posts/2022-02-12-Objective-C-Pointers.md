@@ -1,5 +1,5 @@
 ---
-title: "KVO"
+title: "Objective-C Pointer"
 categories:
   - iOS
 tags:
